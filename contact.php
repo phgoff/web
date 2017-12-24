@@ -20,12 +20,12 @@ if (!$comment) $errors[count($errors)] = 'Please enter your message.';
 if (!$errors) {
 
 	//recipient - replace your email here
-	$to = 'wowthemesnet@gmail.com';	
+	$to = 'mous17zy@hotmail.com';	
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 	
 	//subject and the html message
-	$subject = 'Message via Aries from ' . $name;	
+	$subject = 'Message via My from ' . $name;	
 	$message = 'Name: ' . $name . '<br/><br/>
 		       Email: ' . $email . '<br/><br/>		
 		       Message: ' . nl2br($comment) . '<br/>';
